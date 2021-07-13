@@ -1,0 +1,90 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Common Styles */
+body {
+    margin: 0;
+    padding: 0;    
+    font-family: "Poppins", sans-serif;
+}
+/* Header Style */
+header{
+    background-color: #2D25A0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Nav container */
+.nav-container{
+    display: flex;
+    width: 1160px;
+    height: 44px;
+    margin-top: 42px;
+    margin-bottom: 49px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 36px;
+}
+.login i{
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.login{
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #E02C6D;
+    width: 123px;
+    height: 44px;
+}
+/* First section/landing page banner */
+.welcome-section{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 86px;
+}
+.welc-division{
+    width: 485px;
+}
+.welc-division h2{
+    font-size: 64px;
+    font-weight: 64px;
+    color: #ffffff;
+    line-height: 80px;
+    margin-top: 0px;
+    margin-bottom: 27px;
+}
+.welc-division a{
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+}
+.welc-division i{
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 26px;
+}
+.welc-image{
+    width: 556px;
+    height: 456px;
+}
+
