@@ -30,14 +30,16 @@ nav{
     justify-content: space-between;
 }
 .navigation a{
+    font-size: 16px;
+    font-weight: 500;
     color: #ffffff;
     text-decoration: none;
     margin-right: 36px;
 }
 .login i{
     color: #ffffff;
-    margin-right: 15px;
-    font-size: 18px;
+    margin-right: 12px;
+    font-size: 17px;
 }
 .login{
     display: flex;
@@ -48,6 +50,32 @@ nav{
     background-color: #E02C6D;
     width: 123px;
     height: 44px;
+    position: relative;
+    overflow: hidden;
+}
+.login:before,
+.login:after{
+	content: '';
+	position:absolute;
+	top:0;
+	left:-150%;
+	width:150%;
+	height: 100%;
+	background-color: #ffffff;
+	opacity: 0.2;
+	transform: rotate(45deg);
+    transition: all ease 0.8s;
+}
+.login:after{
+	transition-delay: 0.2s;
+}
+.login:hover:before,
+.login:hover:after{
+	left: 100%
+}
+.login:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.20);
+    transform: scale(1.08);
 }
 /* First section/landing page banner */
 .welcome-section{
@@ -57,6 +85,7 @@ nav{
     align-items: center;
     margin-bottom: 86px;
 }
+/* Banner left section */
 .welc-division{
     width: 485px;
 }
@@ -68,7 +97,7 @@ nav{
     margin-top: 0px;
     margin-bottom: 27px;
 }
-.welc-division a{
+.watch-live-button{
     display: flex;
     color: #ffffff;
     text-decoration: none;
@@ -77,14 +106,303 @@ nav{
     background-color: #E02C6D;
     width: 168px;
     height: 44px;
+    position: relative;
+    overflow: hidden;
+}
+.watch-live-button:before,
+.watch-live-button:after{
+	content: '';
+	position:absolute;
+	top:0;
+	left:-150%;
+	width:150%;
+	height: 100%;
+	background-color: #ffffff;
+	opacity: 0.2;
+	transform: rotate(45deg);
+    transition: all ease 0.8s;
+}
+.watch-live-button:after{
+	transition-delay: 0.2s;
+}
+.watch-live-button:hover:before,
+.watch-live-button:hover:after{
+	left: 100%
+}
+.watch-live-button:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.20);
+    transform: scale(1.08);
 }
 .welc-division i{
     color: #ffffff;
-    margin-left: 15px;
+    margin-left: 12px;
     font-size: 26px;
 }
 .welc-image{
     width: 556px;
     height: 456px;
+}
+
+/* Players grid section */
+.player-parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.player-section{
+    width: 1050px;
+}
+/* Grid Style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-top: 70px;
+    margin-bottom: 165px;
+}
+/* Grid Element style */
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-image{
+    width: 300px;
+    height: 256px;
+    margin: 15px 15px 16px 15px;
+}
+.player-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0px 15px 10px 15px;
+    color: #18191F;
+}
+.player-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px 15px 33px 15px;
+    color: #6C6C6C;
+}
+
+/* Highlight Section */
+.highlight-parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.highlight-section{
+    width: 1102px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 158px;
+}
+/* Banner left section */
+.highlight-text-division{
+    width: 485px;
+}
+.highlight-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.highlight-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    line-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.watch-now-btn{
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #E02C6D;
+    width: 173px;
+    height: 44px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Watch now button of highlight hover styles */
+.watch-now-btn:before,
+.watch-now-btn:after{
+	content: '';
+	position:absolute;
+	top:0;
+	left:-150%;
+	width:150%;
+	height: 100%;
+	background-color: #ffffff;
+	opacity: 0.2;
+	transform: rotate(45deg);
+    transition: all ease 0.8s;
+}
+.watch-now-btn:after{
+	transition-delay: 0.2s;
+}
+.watch-now-btn:hover:before,
+.watch-now-btn:hover:after{
+	left: 100%
+}
+.watch-now-btn:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.20);
+    transform: scale(1.08);
+}
+.highlight-text-division i{
+    color: #ffffff;
+    margin-left: 12px;
+    font-size: 26px;
+}
+.highlight-image{
+    width: 567px;
+    height: 427px;
+}
+
+/* Partner Section styles */
+.partner-parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.partner-section{
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.partner-section-title{
+    font-size: 36px;
+    color: #2D25A0;
+    margin: 0px 0px 30px 0px;
+}
+.partner-images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Footer section */
+footer{
+    width: 100%;
+    justify-content: center;
+    background-color: #2D25A0;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.football-logo{
+    width: 483.87px;
+    margin-bottom: 20px;
+}
+.social-contact-btn{
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.social-btn{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.social{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #969BAB;
+    font-size: 18px;
+}
+
+/* Social media buttons hover style */
+.insta:hover{
+    background-color: #3f729b;
+    box-shadow: 0px 0px 20px rgba(0, 67, 190, 0.2);
+    transform: scale(1.08);
+    transition: all ease-in-out 0.5s;
+}
+.drib:hover{
+    background-color: #ea4c89;
+    box-shadow: 0px 0px 20px rgba(255, 0, 85, 0.2);
+    transform: scale(1.08);
+    transition: all ease-in-out 0.5s;
+}
+.twit:hover{
+    background-color: #00acee;
+    box-shadow: 0px 0px 20px rgba(0, 162, 255, 0.2);
+    transform: scale(1.08);
+    transition: all ease-in-out 0.5s;
+}
+.yutu:hover{
+    background-color:#FF0000;
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.2);
+    transform: scale(1.08);
+    transition: all ease-in-out 0.5s;
+}
+.social:hover{
+    color:#ffffff;
+    transform: scale(1.08);
+    transition: all ease-in-out 0.5s;
+}
+.copyright-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 63px;
+}
+/* Chat button style */
+.chat-btn{
+    position: relative;
+}
+.chat{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat i{
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 3px;
+}
+.chat:hover:after{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    content: "Chat";
+    transition: all ease-in-out 0.5s;
+    transition-delay: 0.5s;
+}
+.chat:hover{
+    width: 200px;
+    transition: all ease-in-out 0.4s;
 }
 
