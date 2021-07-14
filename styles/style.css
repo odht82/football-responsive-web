@@ -53,6 +53,7 @@ nav{
     position: relative;
     overflow: hidden;
 }
+/* Login Button Hover Style  */
 .login:before,
 .login:after{
 	content: '';
@@ -109,6 +110,7 @@ nav{
     position: relative;
     overflow: hidden;
 }
+/* Watch live button hover Style */
 .watch-live-button:before,
 .watch-live-button:after{
 	content: '';
@@ -200,7 +202,7 @@ nav{
     align-items: center;
     margin-bottom: 158px;
 }
-/* Banner left section */
+/* Highlight left text section */
 .highlight-text-division{
     width: 485px;
 }
@@ -263,6 +265,7 @@ nav{
     margin-left: 12px;
     font-size: 26px;
 }
+/* Highlight image  */
 .highlight-image{
     width: 567px;
     height: 427px;
@@ -305,10 +308,12 @@ footer{
     align-items: center;
     padding-top: 30px;
 }
+/* Website Logo */
 .football-logo{
     width: 483.87px;
     margin-bottom: 20px;
 }
+/* Social media buttons */
 .social-contact-btn{
     display: flex;
     width: 170px;
@@ -364,6 +369,7 @@ footer{
     transform: scale(1.08);
     transition: all ease-in-out 0.5s;
 }
+/* Copyright Text */
 .copyright-text{
     font-size: 18px;
     font-weight: 400;
@@ -393,6 +399,7 @@ footer{
     color: #ffffff;
     margin-top: 3px;
 }
+/* Chat button hover styles */
 .chat:hover:after{
     margin-left: 20px;
     color: #ffffff;
@@ -406,3 +413,7 @@ footer{
     transition: all ease-in-out 0.4s;
 }
 
+
+@media only screen and (max-width: 360px) {
+    
+}
