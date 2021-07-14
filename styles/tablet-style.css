@@ -1,0 +1,303 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media screen and (min-width:361px) and (max-width: 1280px) {
+    /* Common Styles */
+    body {
+        margin: 0;
+        padding: 0;    
+        font-family: "Poppins", sans-serif;
+    }
+    /* Header Style */
+    header{
+        background-color: #2D25A0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Nav container */
+    .nav-container{
+        display: flex;
+        width: 678px;
+        height: 32.88px;
+        margin-top: 33px;
+        margin-bottom: 50px;
+        align-items: center;
+        justify-content: space-between;
+    }    
+    .navigation .web{
+        display: none;
+    }
+    .navigation .mobile{
+        text-decoration: none;
+        display: flex;
+        color: #ffffff;
+        font-size: 24px;
+    }
+    .login i{
+        color: #ffffff;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .login{
+        display: flex;
+        color: #ffffff;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        background-color: #E02C6D;
+        font-size: 12px;
+        width: 90px;
+        height: 33px;
+    }
+    /* First section/landing page banner */
+    .welcome-section{
+        width: 678px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 61px;
+        justify-content: space-between;
+    }
+    /* Banner left section */
+    .welc-division{
+        width: 278px;
+    }
+    .welc-division h2{
+        font-size: 36px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 50px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .watch-live-button{
+        display: flex;
+        color: #ffffff;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        background-color: #E02C6D;
+        width: 168px;
+        height: 44px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .welc-division i{
+        color: #ffffff;
+        margin-left: 12px;
+        font-size: 26px;
+    }
+    .welc-image{
+        width: 329px;
+        height: 259.17px;
+    }
+
+    /* Players grid section */
+    .player-parent{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .player-section{
+        width: 678px;
+    }
+    /* Grid Style */
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 27px;
+        margin-bottom: 94px;
+    }
+    /* Grid Element style */
+    .player{
+        width: 330px;
+        height: 474px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+    .player-image{
+        width: 300px;
+        height: 256px;
+        margin: 15px 15px 16px 15px;
+    }
+    .player-title{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        margin: 0px 15px 10px 15px;
+        color: #18191F;
+    }
+    .player-desc{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0px 15px 33px 15px;
+        color: #6C6C6C;
+    }
+
+    /* Highlight Section */
+    .highlight-parent{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .highlight-section{
+        width: 678px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 43px;
+    }
+    /* Highlight left text section */
+    .highlight-text-division{
+        width: 329px;
+    }
+    .highlight-title{
+        font-size: 30px;
+        font-weight: 700;
+        color: #0A0826;
+        line-height: 40px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+    .highlight-desc{
+        font-size: 16px;
+        font-weight: 400;
+        color: #6C6C6C;
+        line-height: 28px;
+        margin-top: 0px;
+        margin-bottom: 24px;
+    }
+    .watch-now-btn{
+        display: flex;
+        color: #ffffff;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        background-color: #E02C6D;
+        width: 173px;
+        height: 44px;
+        margin-bottom: 29px;
+    }
+
+    .highlight-text-division i{
+        color: #ffffff;
+        margin-left: 12px;
+        font-size: 26px;
+    }
+    /* Highlight image  */
+    .highlight-image{
+        width: 328px;
+        height: 248px;
+    }
+
+    /* Partner Section styles */
+    .partner-parent{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .partner-section{
+        width: 678px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 42px;
+    }
+    .partner-section-title{
+        font-size: 24px;
+        color: #2D25A0;
+        margin: 0px 0px 18px 0px;
+    }
+    .partner-images{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .partner-image{
+        transform: scale(0.8);
+    }
+
+    /* Footer section */
+    footer{
+        width: 100%;
+        justify-content: center;
+        background-color: #2D25A0;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 41px;
+    }
+    /* Website Logo */
+    .football-logo{
+        width: 246px;
+        height: 52px;
+    }
+    /* Social media buttons */
+    .social-contact-btn{
+        display: flex;
+        width: 170px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .social-btn{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #ffffff;
+    }
+    .social{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #969BAB;
+        font-size: 18px;
+    }
+    /* Copyright Text */
+    .copyright-text{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #ffffff;
+        margin-bottom: 43px;
+    }
+    /* Chat button style */
+    .chat-btn{
+        position: relative;
+    }
+    .chat{
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: #2D25A0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chat i{
+        font-size: 18px;
+        color: #ffffff;
+        margin-top: 1.5px;
+    }
+}
