@@ -481,6 +481,7 @@
         display: flex;
         align-items: center;
         margin-bottom: 61px;
+        justify-content: space-between;
     }
     /* Banner left section */
     .welc-division{
