@@ -433,6 +433,7 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+        margin-bottom: 50px;
     }
     nav{
         display: flex;
@@ -445,7 +446,7 @@
         width: 678px;
         height: 32.88px;
         margin-top: 33px;
-        margin-bottom: 45px;
+        margin-bottom: 50px;
         align-items: center;
         justify-content: space-between;
     }    
